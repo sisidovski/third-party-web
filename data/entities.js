@@ -376,14 +376,28 @@ module.exports = [
     name: 'Hatena Blog',
     homepage: 'https://hatenablog.com/',
     categories: ['hosting'],
-    domains: ['*.st-hatena.com', '*.hatena.ne.jp'],
+    domains: [
+      '*.hatena.ne.jp',
+      '*.st-hatena.com'
+    ],
     examples: [
       'cdn.blog.st-hatena.com',
       'cdn.pool.st-hatena.com',
       'cdn7.www.st-hatena.com',
       's.hatena.ne.jp',
-      'b.st-hatena.com',
     ],
+  },
+  {
+    name: 'Hatena Bookmark',
+    company: 'Hatena',
+    homepage: 'https://b.hatena.ne.jp/guide/bbutton',
+    categories: ['social'],
+    domains: [
+      'b.st-hatena.com'
+    ],
+    examples: [
+      'b.st-hatena.com/js/bookmark_button.js'
+    ]
   },
   {
     name: 'Shopify',
@@ -2888,6 +2902,13 @@ module.exports = [
     examples: ['events.bouncex.net'],
   },
   {
+    name: 'BowNow',
+    homepage: 'https://bow-now.jp/',
+    categories: ['analytics'],
+    domains: ['*.bownow.jp'],
+    examples: ['contents.bownow.jp']
+  },
+  {
     name: 'Box',
     categories: ['hosting'],
     domains: ['*.box.com'],
@@ -3264,6 +3285,19 @@ module.exports = [
     name: 'Chartbeat',
     categories: ['analytics'],
     domains: ['*.chartbeat.com', '*.chartbeat.net'],
+  },
+  {
+    name: 'Chat Dealer',
+    homepage: 'https://www.chatdealer.jp/',
+    categories: ['customer-success'],
+    domains: ['*.chatdealer.jp'],
+    examples: ['app1.chatdealer.jp']
+  },
+  {
+    name: 'Chat Plus',
+    categories: ['customer-success'],
+    domains: ['*.chatplus.jp'],
+    examples: ['app.chatplus.jp']
   },
   {
     name: 'Cheapflights Media',
@@ -4639,6 +4673,13 @@ module.exports = [
     domains: ['*.fontdeck.com'],
   },
   {
+    name: 'FONTPLUS',
+    homepage: 'https://fontplus.jp/service',
+    categories: ['cdn'],
+    domains: ['*.fontplus.jp'],
+    examples:['webfont.fontplus.jp']
+  },
+  {
     name: 'Foodity Technologies',
     categories: ['ad'],
     domains: ['*.foodity.com'],
@@ -5926,8 +5967,19 @@ module.exports = [
   {
     name: 'LINE Corporation',
     categories: ['ad'],
-    domains: ['*.line-scdn.net', '*.line.me'],
+    domains: ['*.line-scdn.net', 'tr.line.me'],
     examples: ['d.line-scdn.net', 'tr.line.me'],
+  },
+  {
+    name: 'LINE Social Plugins',
+    company: 'LINE',
+    categories: ['social'],
+    homepage: 'https://social-plugins.line.me/en/',
+    domains: ['social-plugins.line.me', 'www.line-website.com'],
+    examples: [
+      'social-plugins.line.me/widget/share',
+      'www.line-website.com/social-plugins/js/thirdparty/loader.min.js'
+    ]
   },
   {
     name: 'Linkcious',
@@ -5938,6 +5990,13 @@ module.exports = [
     name: 'Linking Mobile',
     categories: ['ad'],
     domains: ['*.linkingmobile.com'],
+  },
+  {
+    name: 'List Finder',
+    homepage: 'https://promote.list-finder.jp/',
+    categories: ['marketing'],
+    domains: ['*.list-finder.jp'],
+    examples: ['track.list-finder.jp']
   },
   {
     name: 'LiveBurst',
@@ -9546,6 +9605,13 @@ module.exports = [
     company: '33 Across',
     categories: ['ad'],
     domains: ['*.tynt.com'],
+  },
+  {
+    name: 'TypeSquare',
+    categories: ['cdn'],
+    homepage: 'https://typesquare.com/',
+    domains: ['typesquare.com'],
+    example: ['typesquare.com/accessor/apiscript/typesquare.js']
   },
   {
     name: 'Typepad',
